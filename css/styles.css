@@ -1,0 +1,128 @@
+body{
+    box-sizing: border-box;
+}
+.header {
+    background-color: #ffd232;
+    height: 100vh;   
+}
+.logo {
+    padding-top: 20px;
+    padding-left: 10%;
+}
+.hero {
+    padding: 10%;
+}
+.text {
+    margin-top: 5%;
+}
+.text1 {
+    margin-top: 5%; 
+}
+.img-content {
+    padding: 10px 20px;
+}
+
+button {
+    padding: 10px;
+}
+.hero-img {
+    width: 200px;
+    height: 100px;
+
+}
+
+#pic1 {
+    width: 240px;
+    height: 140px;
+    background-color: blue;
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 3;
+    animation-name: bounce;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+    
+    
+}
+#pic2 {
+    width: 240px;
+    height: 140px;
+    background-color: grey;
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 2;
+    left: 100px;
+    top: -50px;
+    animation-name: bounce2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+}
+#pic3 {
+    width: 240px;
+    height: 140px;
+    background-color: lightskyblue;
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    left: 150px; 
+    animation-name: bounce3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes bounce {
+    0%   {top:0px; bottom:0px;}
+    50%  {top:10px; bottom:0px;}
+    100% {top:0px; bottom:10px;}
+}
+@keyframes bounce2 {
+    0%   {top:-30px; bottom:0px;}
+    50%  {top:10px; bottom:0px;}
+    100% {top:0px; bottom:0px;}
+}
+@keyframes bounce3 {
+    0%   {top:-10px; bottom:0px;}
+    50%  {top:10px; bottom:0px;}
+    100% {top:0px; bottom:10px;}
+}
+.main {
+    padding-top: 30px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+#work {
+    text-align: center;
+    
+}
+.testimonials {
+    margin-top: 20px;
+}
+.avi {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.subscribe-box {
+    max-width: 100%;
+    background:#ffd232;
+    color: black;
+    height: 400px;
+    padding: 80px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+     
+}
+li {
+    text-decoration: wavy;
+}
+
+footer {
+    height: 60px;
+    padding: 10px 0 10px 0;
+}
