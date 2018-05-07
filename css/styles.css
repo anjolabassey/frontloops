@@ -77,18 +77,15 @@ button {
 }
 @keyframes bounce {
     0%   {top:0px; bottom:0px;}
-    50%  {top:10px; bottom:0px;}
-    100% {top:0px; bottom:10px;}
+    100% {top:15px; bottom:10px;}
 }
 @keyframes bounce2 {
     0%   {top:-30px; bottom:0px;}
-    50%  {top:10px; bottom:0px;}
-    100% {top:0px; bottom:0px;}
+    100% {top:-10px; bottom:-30px;}
 }
 @keyframes bounce3 {
     0%   {top:-10px; bottom:0px;}
-    50%  {top:10px; bottom:0px;}
-    100% {top:0px; bottom:10px;}
+    100% {top:30px; bottom:10px;}
 }
 .main {
     padding-top: 30px;
